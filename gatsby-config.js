@@ -36,8 +36,8 @@ if (!spaceId || !accessToken) {
 
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Contentful Starter",
-    description: "Official Contentful Gatsby Starter",
+    title: "Mortgage Caculator",
+    description: "Mortgage Caculator",
   },
   plugins: [
     "gatsby-transformer-sharp",
