@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&display=swap');
+@layer base {
+  * {
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: #e5e5e5;
+  }
+}
+
+@layer components {
+  .container {
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .button {
+    @apply bg-[#FF8049] py-4 px-12 text-white text-lg font-black;
+  }
+
+  .section {
+    @apply lg:pt-40 pt-24;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 0.6rem;
+  background: #413e3e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #272525;
+  border-radius: 0.5rem;
+}
